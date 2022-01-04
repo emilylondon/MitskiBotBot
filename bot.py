@@ -36,7 +36,7 @@ def get_song(lyrics):
     return song, album
 
 song, album = get_song('')
-print("The song is \"" + song + "\" from " + album)
+
 
 
 
