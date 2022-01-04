@@ -1,9 +1,9 @@
 import tweepy
-import secrets
+import secret_info
 from bot import get_song
 
-auth = tweepy.OAuthHandler(secrets.api_key, secrets.api_key_secret)
-auth.set_access_token(secrets.access_token, secrets.access_token_secret)
+auth = tweepy.OAuthHandler(secret_info.api_key, secret_info.api_key_secret)
+auth.set_access_token(secret_info.access_token, secret_info.access_token_secret)
 
 api = tweepy.API(auth)
 

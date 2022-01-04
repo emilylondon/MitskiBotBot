@@ -1,5 +1,5 @@
 import tweepy
-import secrets
+import secret_info
 import requests
 
 
@@ -19,7 +19,7 @@ def get_song(lyrics):
         
     #Parameters for musixmatch API GET request to search lyrics to song 
     params = {
-        'apikey': secrets.mapi_key,
+        'apikey': secret_info.mapi_key,
         'q_artist' : 'mitski',
         'q_lyrics' : str,
         's_track_rating' : 'desc',

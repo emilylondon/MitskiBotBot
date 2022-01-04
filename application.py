@@ -6,6 +6,9 @@ from apscheduler.schedulers.background import BackgroundScheduler
 application = Flask(__name__)
 
 @application.route("/")
+def index():
+    return "running the bot!"
+
 def tweet():
     mitski_reply()
     print("Tweet successful")
