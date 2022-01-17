@@ -21,5 +21,6 @@ def mitski_reply():
 
     #response string 
     song, album = get_song(lyrics)
-    tweet = "@mitskilyricsbot The song is \"" + song + "\" from album " + album + "."
+    tweet = "@mitskilyricsbot \"" + song + "\" from album " + album + "."
     api.update_status(status=tweet, in_reply_to_status_id = tweet_id)
+
