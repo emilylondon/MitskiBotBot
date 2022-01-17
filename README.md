@@ -2,7 +2,7 @@
 ## About 
 
 MitskiBotBot is a Twitter bot that replies to the original Mitski Lyric Bot. It uses the Twitter API and the MusicMatch API.
-The bot runs oon AWS Elastic Beanstalk and tweets once an hour. 
+The bot runs on AWS Elastic Beanstalk and tweets once an hour. 
 
 ## Set up 
 
